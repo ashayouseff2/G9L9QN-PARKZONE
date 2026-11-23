@@ -1,12 +1,11 @@
-# Homework 09 — Design system
-Source: Figma page “Homework 9 — Design system”.
-## Reusable components
-**Button:** Primary/Secondary; Default/Focus/Pressed/Disabled. Primary for main action; secondary for supporting action. Shared radius token radius/12.
-**Field/Text:** Default/Focus/Filled/Error/Disabled. Keep label visible; error includes corrective message.
-**Information card:** repeated for zone status, price, restrictions and payment. Title first, details below; not used for primary action.
-## Component change test
-All button variants share radius/12; changing token updates corner radius across the family.
-## Handoff — Screen 02 / Zone result
-“Pay for parking” opens Payment details; “Place information” opens rules/source. If zone cannot be verified, show exception and do not imply permission.
-Accessibility: status in text, not colour alone; clear button labels; visible focus; readable contrast.
-Development: button/field fills, spacing and radius use variables. Dev Mode token names and “Ready for dev” status were not confirmed.
+---
+week: 09
+neptun: G9L9QN
+---
+# Design system
+
+This week I documented reusable button variants, field and text states, and the information card. The button variants share a radius token, and the hand-off notes describe the actions from the zone-result screen.
+
+The design uses clear status text, visible focus states, and consistent component variants.
+
+**Related work:** [Figma prototype — Design system](https://www.figma.com/design/k0XyRCchu76iPOL6gXmCNu/Prototype-Park-Zone?node-id=0-1).
