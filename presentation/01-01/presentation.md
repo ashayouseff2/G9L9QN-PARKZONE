@@ -1,22 +1,96 @@
-# Final presentation — Park Zone (10 slides)
-Text transcription of the existing Figma presentation; original visual slides remain in Figma.
-## 01 — Parking decisions should feel clear before drivers leave the car
-Park Zone helps drivers understand local rules, hours, price and next action. Problem: unclear signs and unfamiliar areas. Response: find location → understand zone → choose next action.
-## 02 — Drivers need a clear answer before they park
-The issue is not finding a map pin; it is understanding whether parking is allowed and what it costs. Unclear signs, scattered information and misunderstanding can cause stress, delay or tickets.
-## 03 — Three drivers revealed a shared need for trustworthy parking information
-P1 frequent driver, past tickets and internet/AI searches. P2 moderate driver, asks a local friend when maps do not explain payment. P3 frequent driver, uses AI and parking app, wants reliable official information across countries. Composite user needs quick answers: allowed? which hours? how much?
-## 04 — Design puts parking status and next action first
-Find: choose location/address. Understand: read status, hours, price and restrictions. Act: choose payment or place information.
-## 05 — Prototype guides users from location to a parking decision
-Six screens: start, zone, payment, place info, success, unavailable. Demo begins at Screen 01 and shows location, zone and next action.
-## 06 — Participants found flow smooth, with remaining complexity
-Three participants clicked through and gave qualitative feedback. Success criterion: find information and choose next action without help. All positive overall; unaided completion not formally counted.
-## 07 — Positive first-round feedback; task success needs measured validation
-Some steps could feel complicated. Three participants; qualitative feedback only; no timed comparison or per-person success count; paraphrased, no direct quotes.
-## 08 — Next iteration should improve trust and simplify complex moments
-Prototype is not verified live service. Improve clarity, group status/hours/price, make next action obvious, investigate official cross-country data. Next: more users, measure success/time, validate sources. Limits: small sample, no live data, no formal task metrics.
-## 09 — Demo backup shows four essential moments
-Start, zone, payment, success. [Figma prototype](https://www.figma.com/design/k0XyRCchu76iPOL6gXmCNu?node-id=7-3).
-## 10 — Turn uncertain rules into a clearer user journey
-Strongest evidence: drivers rely on searches, local help or AI. Next: more drivers, task metrics, official data coverage. Portfolio story: problem → research → persona/journey → decisions → prototype → feedback → iteration. Thank you / questions.
+<!--@slide Opening-->
+# Park Zone
+## Can drivers understand parking rules before leaving the car?
+
+Drivers in unfamiliar areas need a clear answer about whether they can park, what restrictions apply, and whether payment is required.
+
+---
+
+<!--@slide The problem-->
+# Parking information is spread across sources
+
+- Street signs may be unfamiliar or unclear.
+- Prices, hours, and restrictions may be found in different places.
+- Visitors may have difficulty understanding local rules.
+
+---
+
+<!--@slide Initial research-->
+# Two interviews revealed difficulty finding payment information
+
+- Both interviewees described difficulty locating parking payment information.
+- One also described a language barrier when understanding rules and prices.
+- These findings are preliminary and come from two interviews.
+
+---
+
+<!--@slide Competitor review-->
+# The parking journey needs clearer information
+
+- Explain areas where map coverage is unknown.
+- Pair zone colours with readable labels.
+- Clarify payment eligibility and empty states.
+- Make external map hand-offs easier to understand.
+
+---
+
+<!--@slide Problem definition-->
+# The key question is: can I park here?
+
+The design focuses on drivers in unfamiliar areas who need to understand the parking-area type, eligibility, restrictions, and next action.
+
+---
+
+<!--@slide Information architecture-->
+# Show eligibility before payment
+
+```mermaid
+flowchart TD
+ A[Select or confirm location] --> B[Identify parking area]
+ B --> C{Can rules be verified?}
+ C -->|No| D[Show uncertainty and official guidance]
+ C -->|Yes| E{Eligible to park?}
+ E -->|No| F[Explain restriction]
+ E -->|Yes| G{Public paid parking?}
+ G -->|Yes| H[Show payment details]
+ G -->|No| I[Show applicable conditions]
+```
+
+---
+
+<!--@slide Prototype-->
+# The prototype connects the parking decision
+
+- Select or confirm a location.
+- Review the area result and conditions.
+- Open place information or payment details.
+- Show an unavailable-location state when the area cannot be verified.
+
+[Open the Figma prototype](https://www.figma.com/design/k0XyRCchu76iPOL6gXmCNu/Prototype-Park-Zone?node-id=0-1)
+
+---
+
+<!--@slide Testing-->
+# Three participants reviewed the prototype
+
+- Feedback was generally positive.
+- Some steps were described as complex.
+- Trust and official information were important concerns.
+- Formal task times and per-person success rates were not recorded.
+
+---
+
+<!--@slide Next iteration-->
+# Improve clarity and validate the information
+
+- Make status and next actions easier to scan.
+- Show source and verification information when available.
+- Test eligibility and uncertain-area scenarios with more drivers.
+- Measure task completion and time in the next round.
+
+---
+
+<!--@slide Takeaway-->
+# Unknown information must not look like permission
+
+ZonePark puts eligibility and restrictions before payment, so drivers can make a more informed parking decision.
