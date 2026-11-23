@@ -20,7 +20,7 @@ The current result includes a research and homework board, Figma wireframes and 
 
 ## GitHub Projects
 
-- [ZonePark project board](../../projects)
+- [ZonePark project board](https://github.com/users/ashayouseff2/projects)
 
 The board should show the **Todo → In progress → Done** status of specific tasks and be made accessible to the instructor.
 
