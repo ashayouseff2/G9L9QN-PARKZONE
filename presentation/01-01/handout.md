@@ -1,7 +1,6 @@
 # Park Zone — Clear parking decisions
 
 **Presenter:** Yousef Asha  
-**Week and topic:** 01 — Park Zone UX/UI project  
 **Presentation:** [PWMD source](presentation.md)
 
 ## Short Summary
