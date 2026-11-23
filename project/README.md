@@ -2,7 +2,9 @@
 
 ZonePark is a parking-information concept for drivers in unfamiliar areas. It aims to make parking-area type, eligibility, restrictions, operating hours, prices, and next actions easier to understand before leaving the car. The initial project context is Hungary.
 
-The current result includes a research and homework board, Figma wireframes and clickable prototype, and a browser demonstration. The prototype uses example parking data and is not connected to live municipal information or a payment service.
+## Current Status
+
+The research, design direction, wireframes, clickable Figma prototype, and browser demonstration are documented. The browser demonstration uses illustrative parking data; it is not connected to live municipal information, geocoding, or a payment service. The project is currently a design prototype rather than a deployed parking service.
 
 ## Timeline
 
@@ -20,9 +22,9 @@ The current result includes a research and homework board, Figma wireframes and 
 
 ## GitHub Projects
 
-- [ZonePark project board](https://github.com/users/ashayouseff2/projects)
+- [GitHub Projects](https://github.com/users/ashayouseff2/projects)
 
-The board should show the **Todo → In progress → Done** status of specific tasks and be made accessible to the instructor.
+The course board should use **Todo → In progress → Done** and contain the project's tasks. Select the ZonePark board from the profile's Projects page. Ensure the instructor has access.
 
 ## Additional Documents
 
