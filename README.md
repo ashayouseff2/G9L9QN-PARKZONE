@@ -1,7 +1,7 @@
 | | |
 |---|---|
 | **Name** | **Yousef Asha** |
-| **Neptun code** | To be added |
+| **Neptun code** | **G9L9QN** |
 
 # ZonePark — UX Design Project
 
