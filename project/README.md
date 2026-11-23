@@ -22,9 +22,9 @@ The research, design direction, wireframes, clickable Figma prototype, and brows
 
 ## GitHub Projects
 
-- [GitHub Projects](https://github.com/users/ashayouseff2/projects)
+- [ZonePark GitHub Projects board](https://github.com/users/ashayouseff2/projects/1/views/1)
 
-The course board should use **Todo → In progress → Done** and contain the project's tasks. Select the ZonePark board from the profile's Projects page. Ensure the instructor has access.
+The board uses **Todo → In progress → Done** to track the project tasks. Ensure the instructor has access.
 
 ## Additional Documents
 
