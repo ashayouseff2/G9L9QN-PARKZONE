@@ -24,7 +24,7 @@ The research, design direction, wireframes, clickable Figma prototype, and brows
 
 - [ZonePark GitHub Projects board](https://github.com/users/ashayouseff2/projects/1/views/1)
 
-The board uses **Todo → In progress → Done** to track the project tasks. Ensure the instructor has access.
+The public board uses **Todo → In progress → Done** to track the project tasks.
 
 ## Additional Documents
 
